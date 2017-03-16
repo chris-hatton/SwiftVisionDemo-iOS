@@ -77,6 +77,7 @@
 		833D1B361E7AA196002B1BFE = {
 			isa = PBXGroup;
 			children = (
+				833D1B701E7AA1A8002B1BFE /* Dependencies */,
 				833D1B411E7AA196002B1BFE /* SwiftVisionDemo-iOS */,
 				833D1B561E7AA196002B1BFE /* SwiftVisionDemo-iOSTests */,
 				833D1B611E7AA196002B1BFE /* SwiftVisionDemo-iOSUITests */,
@@ -123,6 +124,13 @@
 				833D1B641E7AA196002B1BFE /* Info.plist */,
 			);
 			path = "SwiftVisionDemo-iOSUITests";
+			sourceTree = "<group>";
+		};
+		833D1B701E7AA1A8002B1BFE /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Dependencies;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
