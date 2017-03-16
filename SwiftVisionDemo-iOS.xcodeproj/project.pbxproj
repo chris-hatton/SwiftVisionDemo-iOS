@@ -31,6 +31,48 @@
 			remoteGlobalIDString = 833D1B3E1E7AA196002B1BFE;
 			remoteInfo = "SwiftVisionDemo-iOS";
 		};
+		833D1B7A1E7AA6F5002B1BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833D1B741E7AA6F5002B1BFE /* SwiftImage-iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8302CF311E7A9B5600AA9E94;
+			remoteInfo = "SwiftImage-iOS";
+		};
+		833D1B7C1E7AA6F5002B1BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833D1B741E7AA6F5002B1BFE /* SwiftImage-iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8302CF3A1E7A9B5600AA9E94;
+			remoteInfo = "SwiftImage-iOSTests";
+		};
+		833D1B841E7AA6F8002B1BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833D1B7E1E7AA6F8002B1BFE /* SwiftVision.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8302CF691E7A9CE100AA9E94;
+			remoteInfo = SwiftVision;
+		};
+		833D1B861E7AA6F8002B1BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833D1B7E1E7AA6F8002B1BFE /* SwiftVision.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8302CF721E7A9CE100AA9E94;
+			remoteInfo = SwiftVisionTests;
+		};
+		833D1B901E7AA6FC002B1BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833D1B881E7AA6FB002B1BFE /* SwiftVision-iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8302CF991E7A9E0200AA9E94;
+			remoteInfo = "SwiftVision-iOS";
+		};
+		833D1B921E7AA6FC002B1BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833D1B881E7AA6FB002B1BFE /* SwiftVision-iOS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8302CFA21E7A9E0200AA9E94;
+			remoteInfo = "SwiftVision-iOSTests";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +89,9 @@
 		833D1B5E1E7AA196002B1BFE /* SwiftVisionDemo-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftVisionDemo-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		833D1B621E7AA196002B1BFE /* SwiftVisionDemo_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVisionDemo_iOSUITests.swift; sourceTree = "<group>"; };
 		833D1B641E7AA196002B1BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833D1B741E7AA6F5002B1BFE /* SwiftImage-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "SwiftImage-iOS.xcodeproj"; path = "Packages/SwiftImage-iOS/SwiftImage-iOS.xcodeproj"; sourceTree = "<group>"; };
+		833D1B7E1E7AA6F8002B1BFE /* SwiftVision.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftVision.xcodeproj; path = Packages/SwiftVision/SwiftVision.xcodeproj; sourceTree = "<group>"; };
+		833D1B881E7AA6FB002B1BFE /* SwiftVision-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "SwiftVision-iOS.xcodeproj"; path = "Packages/SwiftVision-iOS/SwiftVision-iOS.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,8 +174,38 @@
 		833D1B701E7AA1A8002B1BFE /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				833D1B881E7AA6FB002B1BFE /* SwiftVision-iOS.xcodeproj */,
+				833D1B7E1E7AA6F8002B1BFE /* SwiftVision.xcodeproj */,
+				833D1B741E7AA6F5002B1BFE /* SwiftImage-iOS.xcodeproj */,
 			);
 			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		833D1B751E7AA6F5002B1BFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				833D1B7B1E7AA6F5002B1BFE /* SwiftImage-iOS.framework */,
+				833D1B7D1E7AA6F5002B1BFE /* SwiftImage-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		833D1B7F1E7AA6F8002B1BFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				833D1B851E7AA6F8002B1BFE /* SwiftVision.framework */,
+				833D1B871E7AA6F8002B1BFE /* SwiftVisionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		833D1B891E7AA6FB002B1BFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				833D1B911E7AA6FC002B1BFE /* SwiftVision-iOS.framework */,
+				833D1B931E7AA6FC002B1BFE /* SwiftVision-iOSTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +304,20 @@
 			mainGroup = 833D1B361E7AA196002B1BFE;
 			productRefGroup = 833D1B401E7AA196002B1BFE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 833D1B751E7AA6F5002B1BFE /* Products */;
+					ProjectRef = 833D1B741E7AA6F5002B1BFE /* SwiftImage-iOS.xcodeproj */;
+				},
+				{
+					ProductGroup = 833D1B891E7AA6FB002B1BFE /* Products */;
+					ProjectRef = 833D1B881E7AA6FB002B1BFE /* SwiftVision-iOS.xcodeproj */;
+				},
+				{
+					ProductGroup = 833D1B7F1E7AA6F8002B1BFE /* Products */;
+					ProjectRef = 833D1B7E1E7AA6F8002B1BFE /* SwiftVision.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				833D1B3E1E7AA196002B1BFE /* SwiftVisionDemo-iOS */,
@@ -237,6 +326,51 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		833D1B7B1E7AA6F5002B1BFE /* SwiftImage-iOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "SwiftImage-iOS.framework";
+			remoteRef = 833D1B7A1E7AA6F5002B1BFE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		833D1B7D1E7AA6F5002B1BFE /* SwiftImage-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftImage-iOSTests.xctest";
+			remoteRef = 833D1B7C1E7AA6F5002B1BFE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		833D1B851E7AA6F8002B1BFE /* SwiftVision.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftVision.framework;
+			remoteRef = 833D1B841E7AA6F8002B1BFE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		833D1B871E7AA6F8002B1BFE /* SwiftVisionTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftVisionTests.xctest;
+			remoteRef = 833D1B861E7AA6F8002B1BFE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		833D1B911E7AA6FC002B1BFE /* SwiftVision-iOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "SwiftVision-iOS.framework";
+			remoteRef = 833D1B901E7AA6FC002B1BFE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		833D1B931E7AA6FC002B1BFE /* SwiftVision-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftVision-iOSTests.xctest";
+			remoteRef = 833D1B921E7AA6FC002B1BFE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		833D1B3D1E7AA196002B1BFE /* Resources */ = {
