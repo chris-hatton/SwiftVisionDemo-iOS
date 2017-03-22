@@ -1,4 +1,5 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0D8AD715E6EB3690AB214E58AAA768E762A7B9B6",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
@@ -6,6 +7,7 @@
     "1C40323DC4C44553677336C49D9A69489CF4CDA1" : 9223372036854775807,
     "21F51C2FF883274FE9F0EE9C6622F93F9E7C680D" : 9223372036854775807,
     "F5870C1F12D0B1AAA7F7031BB17AC66F7441E64C" : 9223372036854775807,
+    "0D8AD715E6EB3690AB214E58AAA768E762A7B9B6" : 9223372036854775807,
     "E10D8CB66ACE1059F87E54FAC38A454ECCBA1CF5" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "95DDEA2C-2EDF-447D-8112-2EF3086F3548",
@@ -13,12 +15,18 @@
     "1C40323DC4C44553677336C49D9A69489CF4CDA1" : "SwiftVisionDemo-iOS\/Packages\/SwiftVision\/",
     "21F51C2FF883274FE9F0EE9C6622F93F9E7C680D" : "SwiftImage\/",
     "F5870C1F12D0B1AAA7F7031BB17AC66F7441E64C" : "SwiftVisionDemo-iOS\/Packages\/SwiftVision-iOS\/",
+    "0D8AD715E6EB3690AB214E58AAA768E762A7B9B6" : "SwiftVisionDemo-iOS\/",
     "E10D8CB66ACE1059F87E54FAC38A454ECCBA1CF5" : "SwiftVisionDemo-iOS\/Packages\/SwiftImage-iOS\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "SwiftVisionDemo-iOS",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SwiftVisionDemo-iOS.xcodeproj",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chris-hatton\/SwiftVisionDemo-iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D8AD715E6EB3690AB214E58AAA768E762A7B9B6"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/chris-hatton\/SwiftVision.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",

@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		833D1B431E7AA196002B1BFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D1B421E7AA196002B1BFE /* AppDelegate.swift */; };
-		833D1B451E7AA196002B1BFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D1B441E7AA196002B1BFE /* ViewController.swift */; };
-		833D1B481E7AA196002B1BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833D1B461E7AA196002B1BFE /* Main.storyboard */; };
-		833D1B4A1E7AA196002B1BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833D1B491E7AA196002B1BFE /* Assets.xcassets */; };
-		833D1B4D1E7AA196002B1BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833D1B4B1E7AA196002B1BFE /* LaunchScreen.storyboard */; };
-		833D1B581E7AA196002B1BFE /* SwiftVisionDemo_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D1B571E7AA196002B1BFE /* SwiftVisionDemo_iOSTests.swift */; };
-		833D1B631E7AA196002B1BFE /* SwiftVisionDemo_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D1B621E7AA196002B1BFE /* SwiftVisionDemo_iOSUITests.swift */; };
+		833D1BA61E7AAC44002B1BFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D1B9E1E7AAC44002B1BFE /* AppDelegate.swift */; };
+		833D1BA71E7AAC44002B1BFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833D1B9F1E7AAC44002B1BFE /* Assets.xcassets */; };
+		833D1BA81E7AAC44002B1BFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833D1BA01E7AAC44002B1BFE /* LaunchScreen.storyboard */; };
+		833D1BA91E7AAC44002B1BFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833D1BA21E7AAC44002B1BFE /* Main.storyboard */; };
+		833D1BAA1E7AAC44002B1BFE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 833D1BA41E7AAC44002B1BFE /* Info.plist */; };
+		833D1BAB1E7AAC44002B1BFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833D1BA51E7AAC44002B1BFE /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,25 +72,47 @@
 			remoteGlobalIDString = 8302CFA21E7A9E0200AA9E94;
 			remoteInfo = "SwiftVision-iOSTests";
 		};
+		833D1B991E7AAC19002B1BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833D1B941E7AAC19002B1BFE /* SwiftImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8302CED31E7A9A3C00AA9E94;
+			remoteInfo = SwiftImage;
+		};
+		833D1B9B1E7AAC19002B1BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833D1B941E7AAC19002B1BFE /* SwiftImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8302CEDC1E7A9A3C00AA9E94;
+			remoteInfo = SwiftImageTests;
+		};
+		83F95E851E811901006EBEBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833D1B941E7AAC19002B1BFE /* SwiftImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 833D1C551E7AB44B002B1BFE;
+			remoteInfo = SwiftImage.macos;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		833D1B3F1E7AA196002B1BFE /* SwiftVisionDemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftVisionDemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		833D1B421E7AA196002B1BFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		833D1B441E7AA196002B1BFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		833D1B471E7AA196002B1BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		833D1B491E7AA196002B1BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		833D1B4C1E7AA196002B1BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		833D1B4E1E7AA196002B1BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		833D1B531E7AA196002B1BFE /* SwiftVisionDemo-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftVisionDemo-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		833D1B571E7AA196002B1BFE /* SwiftVisionDemo_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVisionDemo_iOSTests.swift; sourceTree = "<group>"; };
-		833D1B591E7AA196002B1BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		833D1B5E1E7AA196002B1BFE /* SwiftVisionDemo-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftVisionDemo-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		833D1B621E7AA196002B1BFE /* SwiftVisionDemo_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVisionDemo_iOSUITests.swift; sourceTree = "<group>"; };
-		833D1B641E7AA196002B1BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		833D1B741E7AA6F5002B1BFE /* SwiftImage-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "SwiftImage-iOS.xcodeproj"; path = "Packages/SwiftImage-iOS/SwiftImage-iOS.xcodeproj"; sourceTree = "<group>"; };
 		833D1B7E1E7AA6F8002B1BFE /* SwiftVision.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftVision.xcodeproj; path = Packages/SwiftVision/SwiftVision.xcodeproj; sourceTree = "<group>"; };
 		833D1B881E7AA6FB002B1BFE /* SwiftVision-iOS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "SwiftVision-iOS.xcodeproj"; path = "Packages/SwiftVision-iOS/SwiftVision-iOS.xcodeproj"; sourceTree = "<group>"; };
+		833D1B941E7AAC19002B1BFE /* SwiftImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftImage.xcodeproj; path = Packages/SwiftImage/SwiftImage.xcodeproj; sourceTree = "<group>"; };
+		833D1B9E1E7AAC44002B1BFE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		833D1B9F1E7AAC44002B1BFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		833D1BA11E7AAC44002B1BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		833D1BA31E7AAC44002B1BFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		833D1BA41E7AAC44002B1BFE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833D1BA51E7AAC44002B1BFE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		833D1BAE1E7AAC8B002B1BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833D1BAF1E7AAC8B002B1BFE /* SwiftVisionDemo_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVisionDemo_iOSTests.swift; sourceTree = "<group>"; };
+		833D1BB11E7AAC8B002B1BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833D1BB21E7AAC8B002B1BFE /* SwiftVisionDemo_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftVisionDemo_iOSUITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,9 +144,8 @@
 			isa = PBXGroup;
 			children = (
 				833D1B701E7AA1A8002B1BFE /* Dependencies */,
-				833D1B411E7AA196002B1BFE /* SwiftVisionDemo-iOS */,
-				833D1B561E7AA196002B1BFE /* SwiftVisionDemo-iOSTests */,
-				833D1B611E7AA196002B1BFE /* SwiftVisionDemo-iOSUITests */,
+				833D1B9D1E7AAC44002B1BFE /* Sources */,
+				833D1BAC1E7AAC8B002B1BFE /* Tests */,
 				833D1B401E7AA196002B1BFE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -140,40 +160,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		833D1B411E7AA196002B1BFE /* SwiftVisionDemo-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				833D1B421E7AA196002B1BFE /* AppDelegate.swift */,
-				833D1B441E7AA196002B1BFE /* ViewController.swift */,
-				833D1B461E7AA196002B1BFE /* Main.storyboard */,
-				833D1B491E7AA196002B1BFE /* Assets.xcassets */,
-				833D1B4B1E7AA196002B1BFE /* LaunchScreen.storyboard */,
-				833D1B4E1E7AA196002B1BFE /* Info.plist */,
-			);
-			path = "SwiftVisionDemo-iOS";
-			sourceTree = "<group>";
-		};
-		833D1B561E7AA196002B1BFE /* SwiftVisionDemo-iOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				833D1B571E7AA196002B1BFE /* SwiftVisionDemo_iOSTests.swift */,
-				833D1B591E7AA196002B1BFE /* Info.plist */,
-			);
-			path = "SwiftVisionDemo-iOSTests";
-			sourceTree = "<group>";
-		};
-		833D1B611E7AA196002B1BFE /* SwiftVisionDemo-iOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				833D1B621E7AA196002B1BFE /* SwiftVisionDemo_iOSUITests.swift */,
-				833D1B641E7AA196002B1BFE /* Info.plist */,
-			);
-			path = "SwiftVisionDemo-iOSUITests";
-			sourceTree = "<group>";
-		};
 		833D1B701E7AA1A8002B1BFE /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
+				833D1B941E7AAC19002B1BFE /* SwiftImage.xcodeproj */,
 				833D1B881E7AA6FB002B1BFE /* SwiftVision-iOS.xcodeproj */,
 				833D1B7E1E7AA6F8002B1BFE /* SwiftVision.xcodeproj */,
 				833D1B741E7AA6F5002B1BFE /* SwiftImage-iOS.xcodeproj */,
@@ -206,6 +196,56 @@
 				833D1B931E7AA6FC002B1BFE /* SwiftVision-iOSTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		833D1B951E7AAC19002B1BFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				833D1B9A1E7AAC19002B1BFE /* SwiftImage.framework */,
+				83F95E861E811901006EBEBF /* SwiftImage.framework */,
+				833D1B9C1E7AAC19002B1BFE /* SwiftImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		833D1B9D1E7AAC44002B1BFE /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				833D1B9E1E7AAC44002B1BFE /* AppDelegate.swift */,
+				833D1B9F1E7AAC44002B1BFE /* Assets.xcassets */,
+				833D1BA01E7AAC44002B1BFE /* LaunchScreen.storyboard */,
+				833D1BA21E7AAC44002B1BFE /* Main.storyboard */,
+				833D1BA41E7AAC44002B1BFE /* Info.plist */,
+				833D1BA51E7AAC44002B1BFE /* ViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		833D1BAC1E7AAC8B002B1BFE /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				833D1BAD1E7AAC8B002B1BFE /* SwiftVisionDemo-iOSTests */,
+				833D1BB01E7AAC8B002B1BFE /* SwiftVisionDemo-iOSUITests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		833D1BAD1E7AAC8B002B1BFE /* SwiftVisionDemo-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				833D1BAE1E7AAC8B002B1BFE /* Info.plist */,
+				833D1BAF1E7AAC8B002B1BFE /* SwiftVisionDemo_iOSTests.swift */,
+			);
+			path = "SwiftVisionDemo-iOSTests";
+			sourceTree = "<group>";
+		};
+		833D1BB01E7AAC8B002B1BFE /* SwiftVisionDemo-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				833D1BB11E7AAC8B002B1BFE /* Info.plist */,
+				833D1BB21E7AAC8B002B1BFE /* SwiftVisionDemo_iOSUITests.swift */,
+			);
+			path = "SwiftVisionDemo-iOSUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +350,10 @@
 					ProjectRef = 833D1B741E7AA6F5002B1BFE /* SwiftImage-iOS.xcodeproj */;
 				},
 				{
+					ProductGroup = 833D1B951E7AAC19002B1BFE /* Products */;
+					ProjectRef = 833D1B941E7AAC19002B1BFE /* SwiftImage.xcodeproj */;
+				},
+				{
 					ProductGroup = 833D1B891E7AA6FB002B1BFE /* Products */;
 					ProjectRef = 833D1B881E7AA6FB002B1BFE /* SwiftVision-iOS.xcodeproj */;
 				},
@@ -331,7 +375,7 @@
 		833D1B7B1E7AA6F5002B1BFE /* SwiftImage-iOS.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = "SwiftImage-iOS.framework";
+			path = SwiftImage_iOS.framework;
 			remoteRef = 833D1B7A1E7AA6F5002B1BFE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -370,6 +414,27 @@
 			remoteRef = 833D1B921E7AA6FC002B1BFE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		833D1B9A1E7AAC19002B1BFE /* SwiftImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftImage.framework;
+			remoteRef = 833D1B991E7AAC19002B1BFE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		833D1B9C1E7AAC19002B1BFE /* SwiftImageTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftImageTests.xctest;
+			remoteRef = 833D1B9B1E7AAC19002B1BFE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		83F95E861E811901006EBEBF /* SwiftImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftImage.framework;
+			remoteRef = 83F95E851E811901006EBEBF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -377,9 +442,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833D1B4D1E7AA196002B1BFE /* LaunchScreen.storyboard in Resources */,
-				833D1B4A1E7AA196002B1BFE /* Assets.xcassets in Resources */,
-				833D1B481E7AA196002B1BFE /* Main.storyboard in Resources */,
+				833D1BA71E7AAC44002B1BFE /* Assets.xcassets in Resources */,
+				833D1BA91E7AAC44002B1BFE /* Main.storyboard in Resources */,
+				833D1BA81E7AAC44002B1BFE /* LaunchScreen.storyboard in Resources */,
+				833D1BAA1E7AAC44002B1BFE /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,8 +470,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833D1B451E7AA196002B1BFE /* ViewController.swift in Sources */,
-				833D1B431E7AA196002B1BFE /* AppDelegate.swift in Sources */,
+				833D1BA61E7AAC44002B1BFE /* AppDelegate.swift in Sources */,
+				833D1BAB1E7AAC44002B1BFE /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +479,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833D1B581E7AA196002B1BFE /* SwiftVisionDemo_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +486,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833D1B631E7AA196002B1BFE /* SwiftVisionDemo_iOSUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,20 +505,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		833D1B461E7AA196002B1BFE /* Main.storyboard */ = {
+		833D1BA01E7AAC44002B1BFE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				833D1B471E7AA196002B1BFE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		833D1B4B1E7AA196002B1BFE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				833D1B4C1E7AA196002B1BFE /* Base */,
+				833D1BA11E7AAC44002B1BFE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		833D1BA21E7AAC44002B1BFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				833D1BA31E7AAC44002B1BFE /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -656,6 +720,7 @@
 				833D1B691E7AA196002B1BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		833D1B6A1E7AA196002B1BFE /* Build configuration list for PBXNativeTarget "SwiftVisionDemo-iOSTests" */ = {
 			isa = XCConfigurationList;
@@ -664,6 +729,7 @@
 				833D1B6C1E7AA196002B1BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		833D1B6D1E7AA196002B1BFE /* Build configuration list for PBXNativeTarget "SwiftVisionDemo-iOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -672,6 +738,7 @@
 				833D1B6F1E7AA196002B1BFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
